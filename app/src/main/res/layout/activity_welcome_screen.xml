@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aditya.blynkv2.WelcomeScreen"
+    android:background="#ffffff">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/icon_ecg_ekg_web250"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HRIDAYA"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/holo_blue_dark"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Connect"
+        android:background="#0288d1"
+        android:textSize="18sp"
+        android:onClick="connector"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>
